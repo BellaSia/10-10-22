@@ -1,0 +1,16 @@
+$primary : purple;
+$warning : brown;
+$modal-backdrop-bg: green;
+
+
+@import"../node_modules/bootstrap/scss/function";
+@import"../node_modules/bootstrap/scss/variables";
+
+$michelle-theme-color: (
+
+    "cool" : pink, 
+    "allen" : cyan);
+
+$theme-colors : map-merge($michelle-theme-color, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
